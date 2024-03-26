@@ -1,0 +1,440 @@
+body {
+    font-size: 16px;
+    box-sizing: inherit;
+    font-family: 'Poppins', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.fullpage {
+    display: flex;
+    padding: 7rem 6rem;
+    padding-bottom: 0;
+    background-color: #f2f2f2;
+}
+
+.left-sidebar {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.items {
+    border-radius: 10px;
+    background-color: white;
+    padding: 1.2rem 2rem;
+}
+
+.sidebaritems {
+    text-transform: capitalize;
+    display: flex;
+    line-height: 3;
+}
+
+.sidebaritems-icon {
+    color: #424242;
+    margin-top: 0.8rem;
+}
+
+.item-names {
+    margin-left: 2rem;
+    text-decoration: none;
+    color: #424242;
+}
+
+.free-job {
+    padding: 1.5rem;
+    border: 1px groove #378fe9;
+    color: #378fe9;
+    border-radius: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.free-job:hover {
+    color: #0a66c2;
+    border: 2px groove #378fe9;
+}
+
+/* midpart */
+.mid-part {
+    margin: 0 2rem;
+    width: 55%;
+}
+
+.dp {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.one {
+    margin-top: 0.5rem;
+}
+
+.two {
+    margin-left: 1rem;
+}
+
+.frst-heading {
+    display: flex;
+    margin-top: 1rem;
+    border-radius: 7px;
+    background-color: white;
+    padding: 1rem;
+}
+
+.seeewho {
+    color: #293037;
+}
+
+.usepremium {
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+.add-job-prefrence {
+    cursor: pointer;
+    color: black;
+    text-transform: capitalize;
+    background-color: #f9c982;
+    border-radius: 20px;
+    margin-top: 1rem;
+    padding: 1rem;
+    word-spacing: 1;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    margin-left: 4rem;
+    cursor: pointer;
+}
+
+.add-job-prefrence:hover {
+    background-color: #e9a53f;
+}
+
+.img-one {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.img-two {
+    position: relative;
+    left: -3rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.img-three {
+    left: -6rem;
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.use-premium {
+    color: #293037;
+    align-self: center;
+    margin-left: -5rem;
+    position: relative;
+}
+
+.second-heading {
+    margin-top: 1rem;
+    border-radius: 7px;
+    background-color: white;
+    padding: 2rem;
+}
+
+.inner-one {
+    margin-top: 1rem;
+    display: flex;
+    padding: 1rem;
+    line-height: 1.3;
+    border-bottom: 1px groove #8c8c8c;
+}
+
+.innerone-dp {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.two2 {
+    margin-left: 1.2rem;
+    width: 90%;
+}
+
+.three3 {
+    margin-left: 1rem;
+}
+
+.hirirng {
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.explore {
+    font-size: 1.2rem;
+    color: #8c8c8c;
+}
+
+.accounter-name {
+    cursor: pointer;
+    font-weight: 600;
+    color: #378fe9;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.cross {
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 0.7rem;
+}
+
+.cross:hover {
+    background-color: #d1d1d1;
+}
+
+.accounter-name:hover {
+    border-bottom: 1px groove #378fe9;
+}
+
+.address {
+    color: #8c8c8c;
+}
+
+.connection {
+    color: #8c8c8c;
+    font-size: 1.2rem;
+}
+
+.third-heading {
+    margin-top: 1rem;
+    border-radius: 7px;
+    background-color: white;
+    padding: 2rem;
+}
+
+.search-history {
+    color: #8c8c8c;
+    font-size: 1.2rem;
+}
+
+.MAIN {
+    margin-top: 1rem;
+    padding: 2rem;
+    border: 1px groove #d9e9ec;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.CONTINUE-SEARCHING {
+    font-size: 1.2rem;
+    color: #8c8c8c;
+}
+
+.search-job {
+    color: #378fe9;
+    padding: 1rem;
+    width: 30%;
+    margin-top: 0.5rem;
+    border-radius: 20px;
+    border: 1px groove #378fe9;
+}
+
+.search-job:hover {
+    color: #0a66c2;
+    border: 2px groove #378fe9;
+}
+
+
+
+/* rightsidebar */
+.right-sidebar {
+    margin-left: 2rem;
+    width: 300px;
+}
+
+.part-one {
+    line-height: 1.5;
+    background-color: white;
+    padding: 1.5rem;
+    padding-top: 2rem;
+    border-radius: 7px;
+}
+
+.recommended-activity {
+    font-size: 1.2rem;
+}
+
+.pic {
+    background-color: #d9e9ec;
+    padding: 5px;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.wanna-improve {
+    font-weight: 600;
+    font-size: 1.4rem;
+    align-self: center;
+}
+
+.rightsidebar-para {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.show-more {
+    text-decoration: none;
+    color: black;
+}
+
+.rightsidebar-pic {
+    border-radius: 7px;
+}
+
+.links {
+    border-radius: 7px;
+    margin-top: 1rem;
+    padding: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 2;
+}
+
+.sidebar-links {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 0.5rem;
+    line-height: 2;
+    font-size: 1.3rem;
+}
+
+.name {
+    font-size: 1.2rem;
+    color: blue;
+    display: inline;
+}
+
+.copyright {
+    font-size: 1.2rem;
+    display: inline;
+
+}
+
+.sidebaritems-responsive {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 7px;
+    display: none;
+}
+
+.sidebaritems-iconresponsive {
+    fill: black;
+}
+
+.item-namesresponsive {
+    top: -0.8rem;
+    position: relative;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+}
+
+.more {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+}
+
+
+@media (max-width: 1055px) {
+    .right-sidebar {
+        display: none;
+    }
+
+    .mid-part {
+        width: 60%;
+    }
+}
+
+@media (max-width: 880px) {
+    .fullpage {
+        padding: 8rem 2rem;
+        padding-bottom: 0;
+    }
+}
+
+
+@media (max-width: 755px) {
+    .left-sidebar {
+        display: none;
+    }
+
+    .sidebaritems-responsive {
+        display: block;
+        display: flex;
+    }
+
+
+    .fullpage {
+        padding: 7rem 2rem;
+        padding-bottom: 0;
+    }
+
+    .mid-part {
+        width: 87%;
+    }
+}
+
+@media (max-width: 540px) {
+
+    .usepremium {
+        margin-left: 0;
+    }
+
+    .fullpage {
+        margin-bottom: 7rem;
+        padding: 7rem 0 0 0;
+    }
+
+    .mid-part {
+        width: 100%;
+        margin: auto;
+    }
+
+    .use-premium {
+        font-size: 1.3rem;
+    }
+
+    .img-one,
+    .img-two,
+    .img-three {
+        height: 30px;
+        width: 30px;
+    }
+}

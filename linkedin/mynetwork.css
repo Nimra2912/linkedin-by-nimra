@@ -1,0 +1,381 @@
+body {
+    font-size: 16px;
+    box-sizing: inherit;
+    font-family: 'Poppins', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.right-sidebar {
+    padding-top: 1.2rem;
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+    padding-bottom: 1.2rem;
+}
+
+.rightsidebar-pic {
+    border-radius: 7px;
+}
+
+.sidebaritems-name {
+    text-decoration: none;
+    color: #8c8c8c;
+}
+
+.sidebaritems-icon {
+    color: #666;
+    margin-right: 1rem;
+}
+
+.links {
+    border-radius: 7px;
+    margin-top: 1rem;
+    padding: 2rem;
+    padding-left: 2.5rem;
+}
+
+.sidebar-links {
+    color: darkgrey;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 0.5rem;
+    line-height: 2;
+    font-size: 1.2rem;
+}
+
+.name {
+    font-size: 1.2rem;
+    color: blue;
+    display: inline;
+}
+
+.copyright {
+    font-size: 1.2rem;
+    display: inline;
+
+}
+
+.fullpage {
+    display: flex;
+    padding: 8rem 10rem;
+    background-color: rgb(211, 208, 208);
+}
+
+.sidebaritems {
+    margin-top: 2rem;
+    display: flex;
+    text-transform: capitalize;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sidebaritems-connection {
+    margin-top: 1rem;
+    display: flex;
+    text-transform: capitalize;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.top-rightsidebar {
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+}
+
+
+
+/* main-area */
+.manage {
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.manage:hover {
+    background-color: #d1d1d1;
+}
+
+.main-area {
+    width: 100%;
+    margin-left: 2rem;
+}
+
+.top-heading {
+    border-radius: 7px;
+    background-color: white;
+    color: grey;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-heading {
+    margin-top: 1rem;
+    border-radius: 7px;
+    background-color: white;
+    padding: 1rem;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.cross {
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.cross:hover {
+    background-color: #d1d1d1;
+}
+
+.jobsearch-heading {
+    font-weight: 600;
+}
+
+.usepremium {
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+.add-job-prefrence {
+    cursor: pointer;
+    color: black;
+    text-transform: capitalize;
+    background-color: #f9c982;
+    border-radius: 20px;
+    margin-top: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    word-spacing: 1;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    margin-left: 4rem;
+}
+
+.add-job-prefrence:hover {
+    background-color: #e9a53f;
+}
+
+.img-one {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.img-two {
+    position: relative;
+    left: -3rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.img-three {
+    left: -6rem;
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.use-premium {
+    color: #8c8c8c;
+    align-self: center;
+    margin-left: -5rem;
+    position: relative;
+}
+
+.freetrial {
+    margin-top: 1rem;
+    color: #8c8c8c;
+    font-size: 1.2rem;
+}
+
+.seeewho {
+    color: #8c8c8c;
+}
+
+.third-heading {
+    margin-top: 1rem;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.flex-part {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.add-people {
+    padding: 0.5rem;
+    border: 1px groove #d1d1d1;
+    border-radius: 7px;
+    width: 250px;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.add-people:HOVER {
+    border: 1px groove #d1d1d1;
+
+}
+
+.background-pic {
+    width: 100%;
+    height: 70px;
+}
+
+.dp-pic {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: -4rem;
+    left: 1rem;
+}
+
+.accountholder-name {
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.accountholder-info {
+    margin-top: 0.5rem;
+    color: #8c8c8c;
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+}
+
+.accountholder-followers {
+    margin-top: 0.5rem;
+    color: #8c8c8c;
+    font-size: 1.2rem;
+}
+
+.follow-btn {
+    margin-left: 1rem;
+    margin-top: 0.7rem;
+    color: blue;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border: 1px groove blue;
+    border-radius: 20px;
+    width: 90%;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.follow-btn:hover {
+    border: 2px groove blue;
+    background-color: #d9e9ec;
+}
+
+.sidebaritems-responsive {
+    display: none;
+}
+
+@media (max-width: 1065px) {
+    .fullpage {
+        padding: 7rem 5rem;
+    }
+
+    .add-people {
+        width: 45%;
+        margin: auto;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .fullpage {
+        padding: 7rem 3rem;
+    }
+}
+
+
+@media (max-width: 780px) {
+    .fullpage { margin-top: 1.5rem;
+        display: inline-block;
+        padding: 7rem 5rem;
+    }
+
+    .right-sidebar {
+        padding-top: 1.2rem;
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .main-area {
+       
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+    .sidebaritems-responsive {
+        display: block;
+        margin-top: 1rem;
+        border-bottom: 1px groove #d1d1d1;
+        margin-bottom: 1rem;
+    }
+
+    .accountholder-info {
+        font-size: 1.2rem;
+    }
+
+    .sidebaritems {
+        display: none;
+    }
+
+    .rightsidebar-pic {
+        margin: auto;
+    }
+
+    .links {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 580px) {
+    .fullpage {
+        padding: 4.8rem 0 0 0;
+        margin-bottom: 7rem;
+    }
+
+    .accountholder-info {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 366px) {
+    .img-one {
+        height: 30px;
+        width: 30px;
+    }
+    
+    .img-two {
+        height: 30px;
+        width: 30px;
+    }
+    
+    .img-three {
+        height: 30px;
+        width: 30px;
+    }
+}
